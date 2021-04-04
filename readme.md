@@ -3,4 +3,5 @@
 
  * npm i -g parcel-bundler
  * npm i faker
+ * npm i @types/faker
  * parcel index.html
