@@ -27,3 +27,11 @@ const logoTodo = (id: number, title: string, completed: boolean) => {
     Is it finished? ${completed}
   `);
 }
+
+class Vehicle {
+  color: string = 'red';
+
+  protected honk(): void {
+    console.log('beep');
+  }
+}
