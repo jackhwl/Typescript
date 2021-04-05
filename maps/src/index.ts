@@ -1,8 +1,13 @@
-import { User } from './User';
-import { Company } from './Company';
 
-const user = new User();
-const company = new Company();
+// import { User } from './User';
+// import { Company } from './Company';
+import { CustomMap } from './CustomMap';
 
-console.log(user);
-console.log(company);
+// const user = new User();
+// const company = new Company();
+const customMap = new CustomMap('map');
+
+// console.log(user);
+// console.log(company);
+
+

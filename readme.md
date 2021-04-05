@@ -4,4 +4,5 @@
  * npm i -g parcel-bundler
  * npm i faker
  * npm i @types/faker
+ * npm i @types/googlemaps
  * parcel index.html
