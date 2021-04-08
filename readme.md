@@ -6,3 +6,11 @@
  * npm i @types/faker
  * npm i @types/googlemaps
  * parcel index.html
+
+
+Narrow down every other type of value: Every other value that is created with a constructor function
+ if (this.collection instanceof Array) 
+
+Narrow type of a value to a primitive type: number, string, boolean, symbol
+ if (typeof this.collection === 'string')
+ 
