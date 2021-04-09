@@ -2,7 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sorter_1 = require("./Sorter");
 var NumbersCollection_1 = require("./NumbersCollection");
+var CharactersCollection_1 = require("./CharactersCollection");
 var collection = new NumbersCollection_1.NumbersCollection([10, 3, -5, 0]);
 var sorter = new Sorter_1.Sorter(collection);
 sorter.sort();
 console.log(collection.data);
+var s_collection = new CharactersCollection_1.CharactersCollection("deiOmOIUUEJKSDksdf");
+var s_sorter = new Sorter_1.Sorter(s_collection);
+s_sorter.sort();
+console.log(s_collection.data);
