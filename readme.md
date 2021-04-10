@@ -14,3 +14,5 @@ Narrow down every other type of value: Every other value that is created with a 
 Narrow type of a value to a primitive type: number, string, boolean, symbol
  if (typeof this.collection === 'string')
  
+ install node type defination
+ * npm i @types/node
