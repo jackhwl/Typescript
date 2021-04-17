@@ -30,6 +30,12 @@ export class User {
   }
 
   get get() {
-    return this.attributes.get.bind(this.attributes);
+    //return this.attributes.get.bind(this.attributes);
+    return this.attributes.get;
+  }
+
+  set (update: UserProps) {
+    this.attributes.set(update);
+    this.events.trigger("change");
   }
 }
