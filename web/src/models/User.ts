@@ -30,6 +30,6 @@ export class User {
   }
 
   get get() {
-    return this.attributes.get;
+    return this.attributes.get.bind(this.attributes);
   }
 }
