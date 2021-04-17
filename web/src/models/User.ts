@@ -8,6 +8,8 @@ interface UserProps {
   age?: number;
 }
 
+type Callback = () => void;
+
 const rootUrl = 'http://localhost:3000/users';
 
 export class User {
@@ -19,4 +21,15 @@ export class User {
     this.attributes = new Attributes<UserProps>(attrs);
   }
 
+  get on() {
+    return this.events.on;
+  }
+
+  get trigger() {
+    return this.events.trigger;
+  }
+
+  get get() {
+    return this.attributes.get;
+  }
 }
