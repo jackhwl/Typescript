@@ -14,7 +14,9 @@ import { Collection } from './models/Collection';
 //user.fetch();
 //console.log(user.get('name'));
 
-const collection = new Collection<User, UserProps>('http://localhost:3000/users', User.buildUser);
+//const collection = new Collection<User, UserProps>('http://localhost:3000/users', User.buildUser);
+
+const collection = User.buildUserCollection();
 
 collection.on('change', () => console.log(collection));
 
