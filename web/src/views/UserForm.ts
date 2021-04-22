@@ -5,13 +5,20 @@ export class UserForm {
 
   eventsMap(): { [key: string]: () => void } {
     return {
-      'click:button': this.onButtonClick,
-      'mouseenter:h1': this.onHeaderHover,
+      //'click:button': this.onButtonClick,
+      //'mouseenter:h1': this.onHeaderHover,
+      'click:.set-age': this.onSetAgeClick,
     };
   }
 
   onButtonClick(): void {
     console.log('button clicked')
+  }
+
+  // without arrow function need add .bind(this) to 'click:.set-age': this.onSetAgeClick.bind(this),
+  onSetAgeClick = (): void => {
+    this.model.setRandomAge();
+    console.log('random age set')
   }
 
   onHeaderHover(): void {
@@ -24,7 +31,9 @@ export class UserForm {
         <h1>User Form</h1>
         <div>User name: ${this.model.get('name')}</div>
         <div>User age: ${this.model.get('age')}</div>
-        <input /><button>click me</button>
+        <input />
+        <button>click me</button>
+        <button class="set-age">Set Random Age</button>
       </div>
     `;
   }
