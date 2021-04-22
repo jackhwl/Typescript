@@ -2,7 +2,7 @@ import { User, UserProps } from './models/User';
 import { Collection } from './models/Collection';
 import { UserForm } from './views/UserForm';
 
-//const user = User.buildUser({ id: 1});
+const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 
 //user.fetch();
 
@@ -22,6 +22,6 @@ import { UserForm } from './views/UserForm';
 
 // collection.fetch();
 
-const userForm = new UserForm(document.getElementById('root'));
+const userForm = new UserForm(document.getElementById('root'), user);
 
 userForm.render();
