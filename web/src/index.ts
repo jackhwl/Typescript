@@ -21,7 +21,12 @@ const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 // collection.on('change', () => console.log(collection));
 
 // collection.fetch();
+const root = document.getElementById('root');
 
-const userForm = new UserForm(document.getElementById('root'), user);
+if (root) {
+  const userForm = new UserForm(root, user);
 
-userForm.render();
+  userForm.render();
+} else {
+  throw new Error('Root element not found');
+}
