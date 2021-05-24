@@ -14,7 +14,7 @@ function logWithParams(...params) {
     }
 }
   
-//@log
+@log
 @logWithParams('param1', 'param2')
 class Book {
     constructor(name, ISBN) {

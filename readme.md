@@ -16,3 +16,5 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  
  install node type defination
  * npm i @types/node
+
+ https://medium.com/jspoint/a-minimal-guide-to-ecmascript-decorators-55b70338215e
