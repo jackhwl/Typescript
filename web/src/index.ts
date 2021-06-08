@@ -1,6 +1,8 @@
 import { User, UserProps } from './models/User';
 import { Collection } from './models/Collection';
 import { UserEdit } from './views/UserEdit';
+import { UserList } from './views/UserList';
+import { UserShow } from './views/UserShow';
 
 const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 
@@ -24,10 +26,11 @@ const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 const root = document.getElementById('root');
 
 if (root) {
-  const userEdit = new UserEdit(root, user);
+  new UserShow(root, user).render();
+  // const userList = new  UserList(root, user);
 
-  userEdit.render();
-  console.log(userEdit)
+  // userList.render();
+  //console.log(userEdit)
 } else {
   throw new Error('Root element not found');
 }
