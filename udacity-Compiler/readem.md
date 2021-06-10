@@ -5,3 +5,4 @@ Lesson 2: RegEx Det. Finite Automata
     Repetition > Concatenation > Alternation
     Regular Expressions Example
 Lesson 3: RegEx NFA
+    NFA Analysis
