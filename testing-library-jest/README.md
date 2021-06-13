@@ -33,3 +33,7 @@ Working tests are in src/finished
 [Jest cheatsheet](https://devhints.io/jest)
 
 [Jest DOM](https://github.com/testing-library/jest-dom)
+
+https://github.com/goldbergyoni/javascript-testing-best-practices#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern
+
+mocking theory on jest_meetup
