@@ -2,13 +2,16 @@ import { Collection } from '../models/Collection';
 import { Model } from '../models/Model';
 
 export abstract class CollectionView<T extends Model<K>, K> {
-    collection: Collection<T, K>[]=[];
 
-    constructor(public parent: Element, public model: T) {
+    constructor(public collection: Collection<T, K>, public parent: Element) {
         //this.bindModel();
     }
 
     abstract renderItem(model: T, itemParent: Element): void;
 
-    render(): void {}
+    render(): void {
+        this.collection.models.forEach(item => {
+            this.renderItem(item, this.parent);
+        })
+    }
 }
