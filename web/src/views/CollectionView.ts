@@ -3,15 +3,23 @@ import { Model } from '../models/Model';
 
 export abstract class CollectionView<T extends Model<K>, K> {
 
-    constructor(public collection: Collection<T, K>, public parent: Element) {
+    constructor(public parent: Element, public collection: Collection<T, K>) {
         //this.bindModel();
     }
 
     abstract renderItem(model: T, itemParent: Element): void;
 
     render(): void {
+        this.parent.innerHTML = '';
+
+        const templateElement = document.createElement('template');
+        
         this.collection.models.forEach(item => {
-            this.renderItem(item, this.parent);
+            const itemParent = document.createElement('div');
+            this.renderItem(item, itemParent);
+            templateElement.content.append(itemParent);
         })
+
+        this.parent.append(templateElement.content);
     }
 }

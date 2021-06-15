@@ -16,15 +16,15 @@ const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 //user.fetch();
 //console.log(user.get('name'));
 
-//const collection = new Collection<User, UserProps>('http://localhost:3000/users', User.buildUser);
+const collection = new Collection<User, UserProps>('http://localhost:3000/users', User.buildUser);
 
 const root = document.getElementById('root');
-const collection = User.buildUserCollection();
+//const collection = User.buildUserCollection();
 
 collection.on('change', () => {
   //console.log('onchange', collection)
   if (root) {
-    new UserList(collection, root).render();
+    new UserList(root, collection).render();
     // const userList = new  UserList(root, user);
   
     // userList.render();
