@@ -18,19 +18,22 @@ const user = User.buildUser({ name: 'Jack', age: 25, id: 1});
 
 //const collection = new Collection<User, UserProps>('http://localhost:3000/users', User.buildUser);
 
-// const collection = User.buildUserCollection();
-
-// collection.on('change', () => console.log(collection));
-
-// collection.fetch();
 const root = document.getElementById('root');
+const collection = User.buildUserCollection();
 
-if (root) {
-  new UserShow(root, user).render();
-  // const userList = new  UserList(root, user);
+collection.on('change', () => {
+  //console.log('onchange', collection)
+  if (root) {
+    new UserList(collection, root).render();
+    // const userList = new  UserList(root, user);
+  
+    // userList.render();
+    //console.log(userEdit)
+  } else {
+    throw new Error('Root element not found');
+  }
+});
 
-  // userList.render();
-  //console.log(userEdit)
-} else {
-  throw new Error('Root element not found');
-}
+collection.fetch();
+//console.log('index collection=', collection);
+
