@@ -20,3 +20,6 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  https://medium.com/jspoint/a-minimal-guide-to-ecmascript-decorators-55b70338215e
  https://zoom.us/j/99752447336?pwd=b0VGdFI1V2ZSTjRNS0x2SEhFMWJ3Zz09
  Javascript magazine 1
+
+ # The Complete Node.js Developer Course (3rd Edition)
+ ## 9. Importing Node.js Core Modules
