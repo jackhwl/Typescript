@@ -6,8 +6,21 @@ const fn = require('./notes')
 yargs.command({
     command: 'add',
     describe: 'Add a note',
-    handler: function() {
-        console.log('Add a note')
+    builder: {
+        title: {
+            describe: "Note title",
+            demandOption: true,
+            type: 'string'
+        },
+        body: {
+            describe: "Note body",
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler: function(argv) {
+        console.log('Title:', argv.title)
+        console.log('Body:', argv.body)
     }
 })
 
@@ -39,6 +52,7 @@ console.log(fn())
 console.log(validator.isEmail('huang@wenlin.net'))
 console.log(chalk.green.bold.inverse('Success'))
 
-console.log(process.argv)
-console.log(yargs.argv)
+yargs.parse()
+//console.log(process.argv)
+//console.log(yargs.argv)
 
