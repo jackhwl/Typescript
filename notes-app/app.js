@@ -19,6 +19,8 @@ yargs.command({
         }
     },
     handler: function(argv) {
+        fn.addNotes(argv.title, argv.body)
+        console.log(fn.addNotes)
         console.log('Title:', argv.title)
         console.log('Body:', argv.body)
     }
@@ -48,9 +50,9 @@ yargs.command({
     }
 })
 
-console.log(fn())
-console.log(validator.isEmail('huang@wenlin.net'))
-console.log(chalk.green.bold.inverse('Success'))
+//console.log(fn())
+//console.log(validator.isEmail('huang@wenlin.net'))
+//console.log(chalk.green.bold.inverse('Success'))
 
 yargs.parse()
 //console.log(process.argv)
