@@ -33,3 +33,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 18. Storing Data with JSON
  ## 19. Adding a Note
  ## 20. Removing a Note
+ ## 21. ES6 Aside: Arrow Functions
