@@ -39,3 +39,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 24. Reading a Note
  ## 26. Debugging Node.js
  * node inspect app.js add --title="t2" --body="b2"
+ ## 29. Asynchronous Basics
