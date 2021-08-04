@@ -42,3 +42,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 29. Asynchronous Basics
  ## 31. Making HTTP Requests
  ## 33. An HTTP Request Challenge
+ ## 34. Handling Errors
