@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback) => {
             callback('Unable to find location!')
         } else {
             const data = response.body.current
-            callback(undefined, {data})
+            callback(undefined, data)
         }
     })
 }

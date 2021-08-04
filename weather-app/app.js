@@ -15,7 +15,7 @@ geocode(address, (error, data) => {
         }
 
         console.log(data.location, data.pluscodes)
-        console.log(forecastData.data.weather_descriptions, forecastData.data.temperature)
+        console.log(forecastData.weather_descriptions, forecastData.temperature)
     })
 })
 
