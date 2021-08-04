@@ -16,7 +16,7 @@ const geocode = (address, callback) => {
             const location = response.body.features[0].place_name
             const pluscodes = encode({ latitude, longitude })
             callback(undefined, {latitude, longitude, location, pluscodes})
-            //console.log(pluscodes)
+            //console.log(encode({ latitude: 43.809, longitude:87.603 }))
         }
     })
 }
