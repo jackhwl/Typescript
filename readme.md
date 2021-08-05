@@ -48,3 +48,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 37. Callback Abstraction Challenge
  ## 38. Callback Chaining
  ## 39. ES6 Aside: Object Property Shorthand and Destructuring
+ ## 40. Destructuring and Property Shorthand Challenge
