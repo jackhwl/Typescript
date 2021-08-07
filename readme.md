@@ -53,3 +53,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 43. Hello Express!
  ## 44. Serving up HTML and JSON
  ## 45. Serving up Static Assets
+ ## 46. Serving up CSS, JS, Images, and More
