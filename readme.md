@@ -52,3 +52,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 41. Bonus: HTTP Requests Without a Library
  ## 43. Hello Express!
  ## 44. Serving up HTML and JSON
+ ## 45. Serving up Static Assets
