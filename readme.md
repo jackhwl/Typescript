@@ -57,3 +57,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 47. Dynamic Pages with Templating
  ## 48. Customizing the Views Directory
  ## 49. Advanced Templating
+ ## 50. 404 Pages
