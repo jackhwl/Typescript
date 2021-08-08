@@ -59,4 +59,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 49. Advanced Templating
  ## 50. 404 Pages
  ## 51. Styling the Application: Part I
- 
+ ## 52. Styling the Application: Part II
