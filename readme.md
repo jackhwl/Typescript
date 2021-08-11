@@ -64,4 +64,5 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 55. Building a JSON HTTP Endpoint
  ## 56. ES6 Aside: Default Function Parameters
  ## 57. Browser HTTP Requests with Fetch
+ ## 58. Creating a Search Form
 
