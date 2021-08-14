@@ -72,3 +72,5 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 73. Installing MongoDB on Windows
 * /Users/whuang/mongodb/bin/mongod.exe --dbpath=/Users/whuang/mongodb-data
 ## 74. Installing Database GUI Viewer
+## 75. Connecting and Inserting Documents
+## 76. Inserting Documents
