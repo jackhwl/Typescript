@@ -50,19 +50,37 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true}, (error, client) => 
     //     console.log(result)
     // })
 
-    db.collection('users').findOne({ _id: ObjectId("6117f4ab40bc1cf9bafa1167")}, (error, result) => {
-        if (error) {
-            return console.log('Unable to fetch document')
-        }
+    // db.collection('users').findOne({ _id: ObjectId("6117f4ab40bc1cf9bafa1167")}, (error, result) => {
+    //     if (error) {
+    //         return console.log('Unable to fetch document')
+    //     }
 
-        console.log(result)
-    })
+    //     console.log(result)
+    // })
 
-    db.collection('users').find({ age: 27}).toArray((error, users) => {
-        console.log(users)
-    })
+    // db.collection('users').find({ age: 27}).toArray((error, users) => {
+    //     console.log(users)
+    // })
 
-    db.collection('users').find({ age: 27}).count((error, count) => {
-        console.log(count)
+    // db.collection('users').find({ age: 27}).count((error, count) => {
+    //     console.log(count)
+    // })
+
+    // const updatePromise = db.collection('users').updateOne({_id: new ObjectId("6117ef232ba7e242bb056b6e")}, { $set: { name: 'Huang'}})
+    // updatePromise.then(result => { console.log(result) })
+    // .catch((error) => {
+    //     console.error(error)
+    // })
+
+    // db.collection('users').updateOne({_id: new ObjectId("6117ef232ba7e242bb056b6e")}, { $inc: { age: 1}})
+    // .then(result => { console.log(result) })
+    // .catch((error) => {
+    //     console.error(error)
+    // })
+
+    db.collection('tasks').updateMany({completed: true}, { $set: { completed: false}})
+    .then(result => { console.log(result) })
+    .catch((error) => {
+        console.error(error)
     })
 })

@@ -76,3 +76,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 76. Inserting Documents
 ## 77. The ObjectID
 ## 78. Querying Documents
+## 80. Updating Documents
