@@ -68,3 +68,7 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
  ## 59. Wiring up the User Interface
 ## 61. Joining Heroku and GitHub
 * install heroku cli win64 
+## 64. Integrating Git
+## 73. Installing MongoDB on Windows
+* /Users/whuang/mongodb/bin/mongod.exe --dbpath=/Users/whuang/mongodb-data
+## 74. Installing Database GUI Viewer
