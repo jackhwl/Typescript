@@ -79,3 +79,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 80. Updating Documents
 ## 81. Deleting Documents
 ## 83. Setting up Mongoose
+## 84. Creating a Mongoose Model
