@@ -81,3 +81,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 83. Setting up Mongoose
 ## 84. Creating a Mongoose Model
 ## 85. Data Validation and Sanitization: Part I
+## 86. Data Validation and Sanitization: Part II
