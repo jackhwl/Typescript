@@ -84,3 +84,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 86. Data Validation and Sanitization: Part II
 ## 89. Resource Creation Endpoints: Part I
 ## 90. Resource Creation Endpoints: Part II
+## 91. Resource Reading Endpoints: Part I
