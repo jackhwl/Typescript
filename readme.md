@@ -88,3 +88,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 92. Resource Reading Endpoints: Part II
 ## 93. Promise Chaining
 ## 94. Promise Chaining Challenge
+## 95. Async/Await
