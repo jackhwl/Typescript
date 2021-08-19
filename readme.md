@@ -91,3 +91,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 95. Async/Await
 ## 96. Async/Await: Part II
 ## 97. Integrating Async/Await
+## 98. Resource Updating Endpoints: Part I
