@@ -94,3 +94,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 98. Resource Updating Endpoints: Part I
 ## 99. Resource Updating Endpoints: Part II
 ## 100. Resource Deleting Endpoints
+## 101. Separate Route Files
