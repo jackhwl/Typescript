@@ -93,3 +93,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 97. Integrating Async/Await
 ## 98. Resource Updating Endpoints: Part I
 ## 99. Resource Updating Endpoints: Part II
+## 100. Resource Deleting Endpoints
