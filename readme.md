@@ -95,3 +95,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 99. Resource Updating Endpoints: Part II
 ## 100. Resource Deleting Endpoints
 ## 101. Separate Route Files
+## 103. Securely Storing Passwords: Part I
