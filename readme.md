@@ -98,3 +98,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 103. Securely Storing Passwords: Part I
 ## 104. Securely Storing Passwords: Part II
 ## 105. Logging in Users
+## 106. JSON Web Tokens
