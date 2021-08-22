@@ -100,3 +100,4 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 105. Logging in Users
 ## 106. JSON Web Tokens
 ## 107. Generating Authentication Tokens
+## 109. Accepting Authentication Tokens
