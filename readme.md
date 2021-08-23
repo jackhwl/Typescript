@@ -106,3 +106,4 @@ if (pm.response.code === 200) {
     pm.environment.set('authToken', pm.response.json().token)
 }
 ## 111. Logging Out
+## 112. Hiding Private Data
