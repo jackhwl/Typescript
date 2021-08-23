@@ -107,3 +107,4 @@ if (pm.response.code === 200) {
 }
 ## 111. Logging Out
 ## 112. Hiding Private Data
+## 113. Authenticating User Endpoints
