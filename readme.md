@@ -102,6 +102,7 @@ Narrow type of a value to a primitive type: number, string, boolean, symbol
 ## 107. Generating Authentication Tokens
 ## 109. Accepting Authentication Tokens
 ## 110. Advanced Postman
-if (pm.response.status.code === 200) {
+if (pm.response.code === 200) {
     pm.environment.set('authToken', pm.response.json().token)
 }
+## 111. Logging Out
