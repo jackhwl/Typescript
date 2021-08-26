@@ -115,3 +115,4 @@ if (pm.response.code === 200) {
 ## 119. Filtering Data
 ## 120. Paginating Data
 ## 121. Sorting Data
+## 123. Adding Support for File Uploads
