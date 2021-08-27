@@ -119,3 +119,4 @@ if (pm.response.code === 200) {
 ## 124. Validating File Uploads
 ## 125. Validation Challenge
 ## 126. Handling Express Errors
+## 127. Adding Images to User Profile
