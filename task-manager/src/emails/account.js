@@ -1,12 +1,13 @@
 const sgMail = require('@sendgrid/mail')
+const config = require('../config')
 
-const sendgridAPIKey = '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'
+const sendgridAPIKey = config.SENDGRID_APIKEY
 
 sgMail.setApiKey(sendgridAPIKey)
 
 sgMail.send({ 
     to: 'jackhwl@hotmail.com', 
     from: 'whuang@viglobal.com', 
-    subject: 'This is a test', 
-    text: 'TGIF'
+    subject: 'This is a test 2', 
+    text: 'testing email from node'
 })
