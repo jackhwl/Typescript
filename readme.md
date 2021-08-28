@@ -121,3 +121,4 @@ if (pm.response.code === 200) {
 ## 126. Handling Express Errors
 ## 127. Adding Images to User Profile
 ## 128. Serving up Files
+## 129. Auto-Cropping and Image Formatting
