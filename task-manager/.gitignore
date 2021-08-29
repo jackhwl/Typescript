@@ -47,4 +47,4 @@ Thumbs.db
 
 /.cache
 
-src/config.js
+.env
