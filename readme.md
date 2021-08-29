@@ -123,3 +123,4 @@ if (pm.response.code === 200) {
 ## 128. Serving up Files
 ## 129. Auto-Cropping and Image Formatting
 ## 131. Exploring SendGrid
+## 132. Sending Welcome and Cancelation Emails
