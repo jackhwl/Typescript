@@ -1,4 +1,4 @@
-// CRUD Create read update delete operation
+// CRUD Create read update delete operation on mongodb without mongoose
 
 const { MongoClient, ObjectId } = require('mongodb')
 
