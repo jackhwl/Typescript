@@ -130,3 +130,4 @@ if (pm.response.code === 200) {
 ## 151. Section Intro: Real-Time Web Applications with Socket.io
 ## 152. Creating the Chat App Project
 ## 154. Getting Started with Socket.io
+## 155. Socket.io Events
