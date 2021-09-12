@@ -131,3 +131,4 @@ if (pm.response.code === 200) {
 ## 152. Creating the Chat App Project
 ## 154. Getting Started with Socket.io
 ## 155. Socket.io Events
+## 156. Socket.io Events Challenge
