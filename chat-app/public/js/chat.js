@@ -7,10 +7,17 @@ const $sendLocationButton = document.querySelector('#send-location')
 
 const $messages = document.querySelector('#messages')
 const messageTemplates = document.querySelector('#message-template').innerHTML
+const locationTemplates = document.querySelector('#location-template').innerHTML
 
 socket.on('message', (message) => {
     console.log(message)
     const html = Mustache.render(messageTemplates, {message})
+    $messages.insertAdjacentHTML('beforeend', html)
+})
+
+socket.on('locationMessage', (url) => {
+    console.log(url)
+    const html = Mustache.render(locationTemplates, {url})
     $messages.insertAdjacentHTML('beforeend', html)
 })
 

@@ -137,3 +137,4 @@ if (pm.response.code === 200) {
 ## 159. Event Acknowledgements
 ## 160. Form and Button States
 ## 161. Rendering Messages
+## 162. Rendering Location Messages
