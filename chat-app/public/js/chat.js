@@ -11,7 +11,10 @@ const locationTemplates = document.querySelector('#location-template').innerHTML
 
 socket.on('message', (message) => {
     console.log(message)
-    const html = Mustache.render(messageTemplates, {message})
+    const html = Mustache.render(messageTemplates, {
+        message: message.text, 
+        createAt:  moment(message.createdAt).format('h:mm:ss a')
+    })
     $messages.insertAdjacentHTML('beforeend', html)
 })
 
