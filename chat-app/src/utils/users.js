@@ -11,7 +11,7 @@ const addUser = ({id, username, room}) => {
     }
 
     const existingUser = users.find(user => {
-        return user.room = room && user.username === username
+        return user.room === room && user.username === username
     })
 
     if (existingUser) {
@@ -19,9 +19,10 @@ const addUser = ({id, username, room}) => {
             error: 'Username is in use!'
         }
     }
-
+console.log('users1', users)
     const user = { id, username, room }
     users.push(user)
+    console.log('users2', users)
 
     return { user }
 }
