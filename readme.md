@@ -149,3 +149,6 @@ if (pm.response.code === 200) {
 ## 171. Sending Messages to Rooms
 ## 172. Rendering User List
 ## 173. Automatic Scrolling
+## 174. Deploying the Chat Application
+## 1. heroku create jackhwl-chat-app
+## 2. git push heroku main
