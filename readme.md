@@ -148,3 +148,4 @@ if (pm.response.code === 200) {
 ## 170. Tracking Users Joining and Leaving
 ## 171. Sending Messages to Rooms
 ## 172. Rendering User List
+## 173. Automatic Scrolling
